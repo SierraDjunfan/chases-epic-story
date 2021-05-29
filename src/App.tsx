@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { storyNodes } from './storyNodes';
+import { StoryNode } from './StoryNode';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export interface SNode {
+  nodeID: number
+  storyText: string
+  options: Option[]
 }
 
-export default App;
+interface Option {
+  optionTitle: string
+  connectingNodeID: number
+}
+
+interface GameState {
+  currentNode: SNode
+  allNodes: SNode[]
+}
+
+const initialState: GameState = {
+  currentNode: storyNodes[0],
+  allNodes: storyNodes
+}
+
+export const App = () => {
+
+  const restartStoryButtonWasPressed = () => {
+    setState(() => ({...state, currentNode: state.allNodes[0]}))
+  }
+
+  const optionWasSelected = (option: number) => {
+    const newNode = state.allNodes.filter( n => n.nodeID === option)[0]
+    setState( () => ( {...state, currentNode: newNode} ) )
+  }
+
+  const [state, setState] = useState(initialState)
+
+  return (
+    <div id="page">
+    <h1 id="main-heading">EXTRA MEGA TERRIFYING STORY</h1>
+      <StoryNode node={state.currentNode} restartStoryButtonWasPressed={restartStoryButtonWasPressed} optionWasSelected={optionWasSelected}></StoryNode>
+    </div>
+  )
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/chases-epic-story/static/css/main.3a22c0e1.chunk.css",
+    "main.js": "/chases-epic-story/static/js/main.8e6d8636.chunk.js",
+    "main.js.map": "/chases-epic-story/static/js/main.8e6d8636.chunk.js.map",
+    "runtime-main.js": "/chases-epic-story/static/js/runtime-main.6c2b5967.js",
+    "runtime-main.js.map": "/chases-epic-story/static/js/runtime-main.6c2b5967.js.map",
+    "static/js/2.f0e0e162.chunk.js": "/chases-epic-story/static/js/2.f0e0e162.chunk.js",
+    "static/js/2.f0e0e162.chunk.js.map": "/chases-epic-story/static/js/2.f0e0e162.chunk.js.map",
+    "static/js/3.6c66fad7.chunk.js": "/chases-epic-story/static/js/3.6c66fad7.chunk.js",
+    "static/js/3.6c66fad7.chunk.js.map": "/chases-epic-story/static/js/3.6c66fad7.chunk.js.map",
+    "index.html": "/chases-epic-story/index.html",
+    "static/css/main.3a22c0e1.chunk.css.map": "/chases-epic-story/static/css/main.3a22c0e1.chunk.css.map",
+    "static/js/2.f0e0e162.chunk.js.LICENSE.txt": "/chases-epic-story/static/js/2.f0e0e162.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/chases-epic-story/static/media/spooky.d181c346.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c2b5967.js",
+    "static/js/2.f0e0e162.chunk.js",
+    "static/css/main.3a22c0e1.chunk.css",
+    "static/js/main.8e6d8636.chunk.js"
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chases-epic-story/static/css/main.fcb8aaf0.chunk.css",
-    "main.js": "/chases-epic-story/static/js/main.f2501574.chunk.js",
-    "main.js.map": "/chases-epic-story/static/js/main.f2501574.chunk.js.map",
+    "main.js": "/chases-epic-story/static/js/main.0508ff76.chunk.js",
+    "main.js.map": "/chases-epic-story/static/js/main.0508ff76.chunk.js.map",
     "runtime-main.js": "/chases-epic-story/static/js/runtime-main.6c2b5967.js",
     "runtime-main.js.map": "/chases-epic-story/static/js/runtime-main.6c2b5967.js.map",
     "static/js/2.f0e0e162.chunk.js": "/chases-epic-story/static/js/2.f0e0e162.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6c2b5967.js",
     "static/js/2.f0e0e162.chunk.js",
     "static/css/main.fcb8aaf0.chunk.css",
-    "static/js/main.f2501574.chunk.js"
+    "static/js/main.0508ff76.chunk.js"
   ]
 }
